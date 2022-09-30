@@ -1,0 +1,162 @@
+@media all and (min-width:769px) and (max-width:992px) {
+
+/* General */
+body {
+    font-family:'Raleway';
+    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+    
+h1 {
+    font-size: 18px;
+}
+/* Header */
+
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+    
+header nav ul {
+    display:flex;
+    flex-direction: row;
+    list-style:none;
+    padding: 0;
+}
+header nav li {
+    margin-bottom: 50px;
+}
+    
+header nav li a {
+    border-top: none;
+    border-bottom: 2px solid transparent;
+    padding: 20px;
+}
+    
+header nav li a:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065fc;
+}
+    
+/* Main - Eléments principaux de la page */
+    
+/* Recherche */
+form {
+    display:flex;
+    flex-wrap:nowrap;
+    width: 100%;
+}
+button {
+    font-size: 14px;
+}
+input[type="search"]::placeholder {
+    color: #000000;
+    font-weight: 350;
+}
+
+/* Hebergemments */
+#hebergementsPopulaires {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.cadreGris1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 1%;
+}
+.cadreGris2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.texteHebergement {
+    padding: 1%;
+}
+.ligne1cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ligne2cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.imgbloc {
+    object-fit : cover;
+    border-radius: 20px 20px 0 0;
+    height: 120px;
+    width:100%;
+}
+.blocinfo {
+    margin-left: 10px;
+}
+
+.texteHebergement2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
+.ligne3cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imgbloc3 {
+    object-fit : cover;
+    border-radius: 20px 20px 0 0;
+    height: 120px;
+    width:100%;
+}
+.blocinfo3 {
+    margin-left: 10px;
+    align-content: flex-start;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: none;
+    flex-wrap:wrap;
+    width: 28%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.card2 {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: 300px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  }
+
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  }
+
+.card-etoile1 {
+    color: #0065FC;
+}
+.card-etoile2 {
+    color: #F2F2F2;
+}
+
+/* Activites */
+
+}
