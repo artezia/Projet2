@@ -47,9 +47,21 @@
     line-height: 15px;
     margin-bottom: 10px;
 }
+    
 /* Activites */
 .sousTitreActivite {
     padding-left : 15px;
     padding-bottom : 10px;
+}
+/* Footer */
+
+.element1 {
+    padding-right: 15%;
+}
+.element2 {
+    padding-right: 15%;
+}
+.element3 {
+    padding-right : 3%;
 }
 }
