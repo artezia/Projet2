@@ -124,44 +124,42 @@ input[type="search"]::placeholder {
 /* Filtres */
 
 .titreBoutons{
-    margin-right: 2%;
+    padding-right: 20px;
 }
-
+   
 #filtres{
     display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 #filtresBoutons {
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
 }
-
+   
 .boutons {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    border: 2px solid #dad8d8;
+    border: 2px solid #dbd8d8;
     border-left: none;
     border-radius: 30px 30px 30px 30px;
     height: 45px;
-    margin-left: 0px;
-    margin-right: 2%;
-    margin-top: 5px;
+    width:auto;
+    white-space: nowrap;
+    margin-right: 20px;
+    margin-bottom: 15px;
     padding-right: 20px;
     padding-left: 0px;
     box-sizing: content-box;
     background-color: #FFFFFF;
     font-weight: 600;
-}
-
+} 
 #filtresBoutons button:hover {
     background-color: #0065FC;
     color: #FFFFFF;
-}
-
+} 
 #filtresBoutons button i {
     display: flex;
     background: #deebff;
@@ -173,7 +171,6 @@ input[type="search"]::placeholder {
     color: #0065FC;
     margin-right: 10px;
 }
-
 /* Info hebergements */
 
 #logementsDispo {
