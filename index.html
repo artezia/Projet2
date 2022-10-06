@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="Fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,8 +17,8 @@
 <body><div class="main">
     <!--header-->
 <header>
-    <nav id="menu">
-        <picture id="logo">
+    <nav class="menu">
+        <picture>
             <!-- ordi-->
             <source type="image/png" media="(min-width:992px)"
                srcset="./images/logo/logo-booki.png">
@@ -27,10 +27,10 @@
                srcset="./images/logo/logo-booki.png">
             <!-- mobile-->
             <source type="image/png" media="(max-width:768px)"
-               srcset="./images/logo/logo-booki.png">
-            <img class="imageBloc1" src="./images/logo/logo-booki-mobile.png" alt="logo Booki"></picture>
+               srcset="./images/logo/logo-booki-mobile.png">
+            <img class="imagelogo" src="./images/logo/logo-booki.png" alt="logo Booki">
         </picture>
-        <ul>
+        <ul class="liensMenu">
             <li><a href="#hebergementsPopulaires" title="Hébergements">Hébergements</a></li>
             <li><a href="#activiteMarseille" title="Activités">Activités</a></li>
         </ul>
@@ -45,28 +45,30 @@
         </div>
         <div id="rechercheFiltres">
             <form method="post" action="traitement.php">
-            <i id=iconeRecherche class="fa-solid fa-location-dot"></i> <input type="search" placeholder="Marseille, France">
-            <button>Rechercher</button>
-            </form><br>
+            <i id=iconeRecherche class="fa-solid fa-location-dot"></i>
+            <input type="search" placeholder="Marseille, France">
+            <button class="validationRecherche">Rechercher</button>
+            <span class="rechercheMobile"><i class="fa-solid fa-magnifying-glass"></i></span>
+            </form>
         </div>
         <div id="filtres">
             <div id="filtresBoutons">
                 <h2 class="titreBoutons">Filtres</h2>
                 <button class="boutons">
                     <i class="fa-solid fa-money-bill-1-wave fa-xl"></i>
-                    <p>Économique</p>
+                    Économique
                 </button>
                 <button class="boutons">
                     <i class="fa-solid fa-child fa-xl"></i>
-                    <p>Familial</p>
+                    Familial
                  </button>
                 <button class="boutons">
                     <i class="fa-solid fa-heart fa-xl"></i>
-                    <p>Romantique</p>
+                    Romantique
                 </button>
                 <button class="boutons">
                     <i class="fa-solid fa-dog fa-xl"></i>
-                    <p>Animaux autorisés</p>
+                    Animaux autorisés
                </button>
             </div>
         </div>
