@@ -319,19 +319,21 @@ input[type="search"]::placeholder {
     display: flex;
     align-items: flex-end;
     width: 25%;
-    height: 470px;
-    padding: 10px;
+    height: 450px;
+    margin-right : 20px;
+
 }
 .colonne2 {
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 25%;
+    margin-right : 20px;
 }
 .bloc1 {
     background-color: #FFFFFF;
     border-radius: 20px;
-    margin: 10px;
+
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     height: 100%;
 }
