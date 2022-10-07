@@ -91,7 +91,6 @@ header nav li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     height: auto;
 }
 .colonne1 {
@@ -99,10 +98,23 @@ header nav li a {
     height : auto;
     padding: 0 0 0 0;
     margin-bottom: 20px;
+    margin-right : 0px;
 }
 .colonne2 {
-    height : auto;
     width: 90%;
+    height : auto;
+    margin-right : 0px;
+}
+.colonne3 {
+    width: 90%;
+    height : auto;
+    padding: 0 0 0 0;
+    margin-bottom: 20px;
+    margin-right : 0px;
+}
+.colonne4 {
+    width: 90%;
+    height : auto;
 }
 .imageActivite01 {
     height: 150px;
