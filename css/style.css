@@ -321,6 +321,7 @@ input[type="search"]::placeholder {
     width: 25%;
     height: 450px;
     margin-right : 20px;
+
 }
 .colonne2 {
     display: flex;
@@ -328,6 +329,14 @@ input[type="search"]::placeholder {
     height: 100%;
     width: 25%;
     margin-right : 20px;
+}
+.colonne3 {
+    display: flex;
+    align-items: flex-end;
+    width: 25%;
+    height: 450px;
+    margin-right : 20px;
+
 }
 .colonne4 {
     display: flex;
