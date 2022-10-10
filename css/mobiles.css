@@ -8,6 +8,10 @@ body {
     font-family: 'Raleway';
     font-size: 14px;
 }
+.main {
+    max-width: 768px;
+    min-width: 320px;
+}
 /* Header*/
 header nav li a:hover {
     border-top: 3px solid transparent;
@@ -48,12 +52,6 @@ header nav li a {
     background-color: #000000;
     color: #F2F2F2;
 }
-/* Filtres */
-
-.titreBoutons {
-    margin-right: 730px;
-}
-
 /* Hebergements */
 #hebergementsPopulaires {
     display: flex;
