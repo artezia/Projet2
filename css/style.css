@@ -392,7 +392,6 @@ div li{
 footer {
     display: flex;
     flex-direction: row;
-    align-content: flex-start;
     background-color: #F2F2F2; 
     line-height : 1.5;  
 }
