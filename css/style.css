@@ -326,11 +326,6 @@ input[type="search"]::placeholder {
     width: 25%;
     margin-right : 20px;
 }
-.colonne3 {
-    width: 25%;
-    height: 450px;
-    margin-right : 20px;
-}
 .colonne4 {
     display: flex;
     flex-direction: column;
