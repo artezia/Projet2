@@ -314,8 +314,6 @@ input[type="search"]::placeholder {
     margin-bottom: 40px;
 }
 .colonne1 {
-    display: flex;
-    align-items: flex-end;
     width: 25%;
     height: 450px;
     margin-right : 20px;
@@ -329,12 +327,9 @@ input[type="search"]::placeholder {
     margin-right : 20px;
 }
 .colonne3 {
-    display: flex;
-    align-items: flex-end;
     width: 25%;
     height: 450px;
     margin-right : 20px;
-
 }
 .colonne4 {
     display: flex;
