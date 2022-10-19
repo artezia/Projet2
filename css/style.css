@@ -8,13 +8,9 @@ body {
     font-family: 'Raleway';
     font-size: 15px;
     font-style: normal;
-    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-}
-.main {
     max-width: 1400px;
-    margin: 0 auto;
 }
 
 h1 {
@@ -53,25 +49,29 @@ a {color:black;
 }
 
 /* Header*/
-.menu {
+.imagelogo {
+    height: 120px;
+}
+.menu{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height : 135px;
+    height: 120px;
 }
 .liensMenu {
-    display: flex;
-    flex-direction: row;
     list-style-type: none;
-    padding-inline-start: 0%;
-    margin: 0px;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    width: 40%;
 }
-header nav li a {
-    padding: 56px;
-    text-decoration: none;
+.lienA {
+    width:50%;
+    padding-top:51px;
+    padding-bottom: 51px;
 }
-header nav li a:hover {
+.lienA:hover {
     border-top: 3px solid #0065FC;
 }
 /* Main */
@@ -386,10 +386,10 @@ footer {
     display: flex;
     flex-direction: row;
     background-color: #F2F2F2; 
-    line-height : 1.5;  
+    line-height : 1.5; 
 }
 .element1 {
-    padding-left : 3%;
+    padding-left : 30px;
     padding-right: 18%;
 }
 .element2 {
