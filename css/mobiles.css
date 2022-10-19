@@ -31,6 +31,7 @@ body {
     width:50%;
     padding-top:15px;
     padding-bottom: 41px;
+    border-bottom: 3px solid #F2F2F2;
 }
 .lienA:hover {
     border-top: none;
@@ -155,13 +156,13 @@ footer {
     font-size: 16px;
 }
 .element1 {
-    padding-left : 50px;
+    padding-left : 15px;
 }
 .element2 {
-    padding-left : 50px;
+    padding-left : 30px;
 }
 .element3 {
-    padding-left : 50px;
+    padding-left : 30px;
     padding-bottom: 20px;
 }
 }
