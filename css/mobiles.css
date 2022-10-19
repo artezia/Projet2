@@ -11,24 +11,42 @@ body {
 .main {
     max-width: 768px;
     min-width: 320px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 /* Header*/
-header nav li a:hover {
-    border-top: 3px solid transparent;
-    border-bottom: 3px solid #0065FC;
-}
 .imagelogo {
     margin-left: 80px;
     }
-header nav li a {
-    padding: 56px 56px 30px 30px;
-}
-.menu {
+
+.menu{
     display: flex;
     flex-direction: column;
-    margin-bottom: 70px;
+    margin-bottom: 120px;
+}
+.liensMenu {
+    width: 100%;
+}
+.lienA {
+    width:50%;
+    padding-top:15px;
+    padding-bottom: 41px;
+}
+.lienA:hover {
+    border-top: none;
+    border-bottom: 3px solid #0065FC;
+}
+/* Marges */
+
+#hebergementsPopulaires {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
+#activiteMarseille {
+    margin-left: 0px;
+    margin-right: 0px;
+}
 /* Main */
 
 /* Recherche */
@@ -61,6 +79,7 @@ header nav li a {
     width: 100%;
     border-radius: 0;
     margin-bottom: 30px;
+    margin-left: auto;
 }
 .cadreGris1 {
     display: flex;
@@ -85,6 +104,10 @@ header nav li a {
 }
 
 /* Activites */
+
+.titreactivite {
+    padding: 15px;
+}
 .colonnes {
     display: flex;
     flex-direction: column;
